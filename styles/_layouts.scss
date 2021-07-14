@@ -1,0 +1,36 @@
+body
+   {
+    font-family  : $font-sass;
+    
+   .container-fluid{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+   }
+    
+   }
+
+.blog1{
+    background-color: $cfont;
+    height: 600px;
+}
+
+.blog2{
+    height:$h;
+
+}
+
+.blog3{
+    background-color: $cfont;
+    height:$h;
+}
+
+
+.blog4{
+    background-color: $background;
+    height:380px;
+    
+    span{
+        color: $cfont;
+    }
+    
+}
