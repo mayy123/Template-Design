@@ -78,7 +78,7 @@
   padding: 5rem 0;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .showcase {
     height: 400px;
   }
@@ -87,6 +87,124 @@
   }
   .showcase-content img {
     display: none;
+  }
+  .blog1 {
+    height: 450px !important;
+  }
+  .blog1 .row {
+    margin-top: 10px !important;
+  }
+  .blog1 img {
+    display: none !important;
+  }
+  .blog2 {
+    height: 400px !important;
+  }
+  .blog2 .row2 {
+    padding-top: 10px !important;
+    width: 50% !important;
+    height: 50% !important;
+  }
+  .blog2 .row2 h2 {
+    font-size: 15px !important;
+  }
+  .blog2 .row2 p {
+    font-size: 12px !important;
+  }
+  .blog2 .row2 button {
+    display: none !important;
+  }
+  .blog3 {
+    height: 400px !important;
+  }
+  .blog3 .row {
+    padding-top: 10px !important;
+    width: 50% !important;
+    height: 50% !important;
+  }
+  .blog3 .row h2 {
+    font-size: 15px !important;
+  }
+  .blog3 .row p {
+    font-size: 12px !important;
+  }
+  .blog3 .row button {
+    display: none !important;
+  }
+  .blog4 {
+    height: 400px !important;
+  }
+  .blog4 .container {
+    height: 70% !important;
+  }
+  .blog4 h2 {
+    font-size: 15px !important;
+  }
+  .blog4 p {
+    font-size: 12px !important;
+  }
+  .blog4 .row {
+    padding-top: 10px !important;
+  }
+  .blog4 .row ul {
+    list-style-type: none;
+  }
+  .blog4 .row ul li h6 {
+    font-weight: bold !important;
+  }
+  .blog4 img {
+    display: none !important;
+  }
+  .blog4 .m4 {
+    -ms-flex-wrap: nowrap !important;
+        flex-wrap: nowrap !important;
+  }
+  .blog5 {
+    height: 400px !important;
+    width: 100% !important;
+  }
+  .blog5 .container .row {
+    -ms-flex-wrap: nowrap !important;
+        flex-wrap: nowrap !important;
+    padding-top: 10px !important;
+    width: 50% !important;
+    height: 50% !important;
+  }
+  .blog5 .container .row h2 {
+    font-size: 15px !important;
+  }
+  .blog5 .container .row p {
+    font-size: 12px !important;
+  }
+  .blog5 .container .row .r-5 {
+    padding-top: 50px !important;
+  }
+  .blog5 .container .row .r-5b {
+    padding-top: 50px !important;
+  }
+  .blog5 .container .row .r-5b p {
+    padding-top: 5px !important;
+    color: gray !important;
+  }
+  .blog6 {
+    height: 250px !important;
+  }
+  .blog6 .row {
+    -ms-flex-wrap: nowrap !important;
+        flex-wrap: nowrap !important;
+    padding-top: 10px !important;
+    width: 50% !important;
+    height: 50% !important;
+  }
+  .blog6 .row h2 {
+    font-size: 15px !important;
+  }
+  .blog6 .row p {
+    font-size: 12px !important;
+  }
+  .blog6 .row .r-6 {
+    padding-top: 20px !important;
+    color: black;
   }
 }
 
@@ -264,6 +382,7 @@ body .container-fluid {
 }
 
 .showcase .container nav ul li h5 {
+  white-space: nowrap;
   color: red;
 }
 

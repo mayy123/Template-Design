@@ -9,10 +9,27 @@ $light : rgba(255, 255, 255, 0.993);
 $fcolor : rgb(0, 0, 0);
 $pfont :14px;
 $h :800px;
-$phone : rgb(146, 255, 126);
-$tablet : red;
+// $phone : rgb(146, 255, 126);
+// $tablet : red;
 
-$desktop : purple;
+// $desktop : purple;
+
+// // Small tablets and large smartphones (landscape view)
+// $screen-sm-min: 576px;
+
+// // Small tablets (portrait view)
+// $screen-md-min: 768px;
+
+// // Tablets and small desktops
+// $screen-lg-min: 992px;
+
+// // Large tablets and desktops
+// $screen-xl-min: 1200px;
+
+
+
+
+
 
 // set text color base on bg
 @function set-text-color($cfont) {
